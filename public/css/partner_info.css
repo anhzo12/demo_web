@@ -1,0 +1,84 @@
+
+        .type-bus {
+            margin-right: 1rem;
+        }
+
+        .icon {
+            background: white;
+            padding-top: 1px;
+            text-align: center;
+            border: solid #4F4CEE 1.5px;
+            width: 35px;
+            height: 30px;
+            font-size: 25px;
+            color: #4F4CEE;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .font25 {
+            font-size: 25px;
+        }
+
+        .header {
+            padding-top: 1rem;
+            padding-bottom: 1rem
+        }
+
+        .info {
+            padding-right: 5%;
+        }
+
+        .news-brief {
+            padding-left: 40px;
+        }
+
+        .items {
+            width: 100%;
+            height:auto;
+            text-align: left;
+            background: white;
+        }  
+        .partner_name
+        {
+            color: orange;
+        }
+        .comment_divisor
+        {
+            font-size: 20px;
+            text-align: center;
+            color: grey;
+        }    
+        
+        .border_round {
+            border-radius: 50%;
+          }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .comment-info {
+            font-size: 14px;
+            
+        }
+        .ratings i{
+                color:#cecece;
+        }
+        .rating-color{
+            color:#fbc634 !important;
+        }
+       
+        
+     
