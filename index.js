@@ -25,8 +25,20 @@ app.get('/', (req, res)=>{
     res.render('index')
 });
 
+app.get('/ticket_list', (req, res)=>{
+    res.render('ticket_list')
+});
+
+app.get('/ticket_info', (req, res)=>{
+    res.render('ticket_info')
+});
+
 app.get('/booking', (req, res)=>{
     res.render('booking')
+});
+
+app.get('/history', (req, res)=>{
+    res.render('history')
 });
 
 app.get('/promotion', (req, res)=>{
@@ -34,8 +46,25 @@ app.get('/promotion', (req, res)=>{
     // console.log('lmao');
 });
 
+app.get('/news_details', (req, res)=>{
+    res.render('news_details');
+});
+
+app.get('/partner_info', (req, res)=>{
+    // console.log('h')
+    res.render('partner_info');
+});
+
+app.get('/user_info', (req, res)=>{
+    res.render('user_info');
+});
+
 app.get('/about_us', (req, res)=>{
     res.render('about_us')
+});
+
+app.get('/contact', (req, res)=>{
+    res.render('contact')
 });
 
 app.set('port', process.env.PORT || 5000);
